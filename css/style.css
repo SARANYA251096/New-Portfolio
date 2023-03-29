@@ -271,11 +271,12 @@ body{
 
 .image img{
     position: relative;
-    top: 30px;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    max-width: 350px;
+    max-width: 400px;
     object-fit: cover;
+    margin-top:-20px;
 }
 
 /* About */
