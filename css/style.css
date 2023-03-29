@@ -271,11 +271,12 @@ body{
 
 .image img{
     position: relative;
-    top: 30px;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    max-width: 350px;
+    max-width: 400px;
     object-fit: cover;
+    margin-top: -20px;
 }
 
 /* About */
@@ -411,9 +412,6 @@ body{
 }
 
 
-
-
-
 /* Projects */
     
 #projects{
@@ -478,15 +476,15 @@ body{
 }
 .btn3{
     display: block;
-    margin: 50px auto;
+    margin: 30px auto;
     width: fit-content;
     border: 1px solid #ff004f;
-    padding: 14px 50px;
+    padding: 10px 40px;
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
     transition: background 0.5s;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .btn3:hover{
     background: #ff004f;
