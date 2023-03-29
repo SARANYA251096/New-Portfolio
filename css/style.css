@@ -276,11 +276,7 @@ body{
     transform: translateX(-50%);
     max-width: 400px;
     object-fit: cover;
-<<<<<<< HEAD
     margin-top: -20px;
-=======
-    margin-top:-20px;
->>>>>>> d44b2aa635a6396a5af3f2112ddade243e714755
 }
 
 /* About */
