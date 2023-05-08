@@ -17,6 +17,10 @@
       crossorigin="anonymous"
     />
 
+    <!-- responsiveness -->
+    	<link rel="stylesheet" type="text/css" href="css/responsiveness.css">
+
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -79,7 +83,7 @@
               several projects that have contributed to the growth and success
               of various organizations.
             </p>
-            <a href="#" class="btn" download>
+            <a href="https://drive.google.com/file/d/15PrzKSdGJArkWneneM3gIQYGxC3Map9O/view" target="_blank" class="btn" download>
               Download CV
               <i class="bx bxs-download"></i>
             </a>
@@ -215,18 +219,18 @@
                 The app connects you to the talented people around the
                 world.Download it from playstore
               </p>
-              <a href="#"><i class="bx bx-link-external"></i></a>
+              <a href="https://stately-rugelach-600890.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
             </div>
           </div>
           <div class="work">
             <img src="images/work-3.png" />
             <div class="layer">
-              <h3>Online Shopping App</h3>
+              <h3>Recipe App</h3>
               <p>
                 The app connects you to the talented people around the
                 world.Download it from playstore
               </p>
-              <a href="#"><i class="bx bx-link-external"></i></a>
+              <a href="https://animated-treacle-44ba01.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
             </div>
           </div>
         </div>
@@ -241,29 +245,30 @@
         <div class="row">
           <div class="contact-left">
             <h1 class="sub-title">Contact Me</h1>
-            <p><i class="bx bx-send"></i>saranyaayyamuthu96@gmail.com</p>
+            <p style="margin-top: 50px;"><i class="bx bx-send"></i>saranyaayyamuthu96@gmail.com</p>
             <p><i class="bx bxs-phone-call"></i>9600559993</p>
           </div>
           <div class="contact-right">
-            <form>
+            <form onSubmit="sendEmail(); reset(); return false;"> 
               <input type="text" name="Name" placeholder="Your Name" required />
               <input
                 type="email"
-                name="email"
+                name="Email"
                 placeholder="Your Email"
                 required
               />
               <textarea
-                name="message"
+                name="Message"
                 rows="3"
                 placeholder="Your Message"
               ></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
+              <button type="submit" onsubmit="sendEmail()" class="btn btn2">Submit</button>
             </form>
           </div>
         </div>
       </div>
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script src="js/script.js"></script>
   </body>

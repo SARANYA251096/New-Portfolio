@@ -47,7 +47,7 @@ body{
     display: inline-block;
     font-size: 18px;
     font-weight: 500;
-    color:white;
+    color:#fff;
     margin-left: 35px;
     text-decoration: none;
     opacity: 0;
@@ -330,7 +330,7 @@ body{
   padding: 0 0 0 20px;
   position: relative;
   font-size: large;
-  /* list-style: square inside url("sqpurple.gif"); */
+  list-style: none;
   float: left;
 
 }
@@ -526,7 +526,7 @@ body{
 
 form input, form textarea{
     width: 100%;
-    border:0;
+    border:1px solid white;
     outline: none;
     background: #262626;
     padding: 10px;
@@ -621,3 +621,5 @@ form .btn2{
         transform: rotate(360deg);
     }
 }
+
+
