@@ -496,8 +496,12 @@ body {
   background: #ff004f;
 }
 .contact-right form {
-  width: 100%;
+  width: 70%;
   margin: 15px 0;
+}
+
+.contact-right h1{
+   margin-right: 220px;
 }
 
 form input,
