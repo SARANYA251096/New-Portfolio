@@ -18,10 +18,21 @@
     />
 
     <!-- responsiveness -->
-    	<link rel="stylesheet" type="text/css" href="css/responsiveness.css">
-
+    <link rel="stylesheet" type="text/css" href="css/responsiveness.css" />
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/script.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("GJIOnUrVlj9HWT45P");
+      })();
+    </script>
   </head>
   <body>
     <!-- Header Design -->
@@ -35,15 +46,17 @@
         <a href="#projects" style="--i: 4">Projects</a>
         <a href="#contacts" style="--i: 5">Contact</a>
       </nav>
+      <div class="bx bx-menu" id="menu-icon"></div>
     </header>
 
     <!-- Home Design -->
-    <section class="home" id="home">
+    <!-- <section class="home" id="home">
       <div class="home-sci">
         <a href="#"><i class="bx bxl-linkedin"></i></a>
         <a href="#"><i class="bx bxl-github"></i></a>
         <a href="#"><i class="bx bxl-gmail"></i></a>
       </div>
+
       <div class="home-content">
         <h1>Hello, I'm Saranya A</h1>
         <h3>Full Stack Developer</h3>
@@ -63,8 +76,32 @@
           </div>
         </div>
       </div>
-    </section>
-
+    </section> -->
+<div class="row">
+     <div class="col-md-6">
+      <div class="home-content">
+        <h1>Hello, I'm Saranya A</h1>
+        <h3>Full Stack Developer</h3>
+        <p>
+          I am a quick learner, a team player, and I thrive in a dynamic and
+          fast-paced work environment. Have passion for creating beautiful,
+          user-friendly, and functional websites.
+        </p>
+        <a href="#" class="btn">Hire Me</a>
+      </div>
+     </div>
+     <div class="col-md-6">
+      <div class="home-img">
+        <div class="glowing-circle">
+          <span></span>
+          <span></span>
+          <div class="image">
+            <img src="saran.jpg" alt="profile picture" />
+          </div>
+        </div>
+      </div>
+     </div>
+</div>
     <!-- About section starts here -->
 
     <section class="about" id="about">
@@ -73,29 +110,114 @@
           <div class="col-md-6">
             <h1 class="heading">About <span>Me</span></h1>
             <p class="lead">
-             I am a web developer who loves to create visually appealing and 
-             intuitive websites that meet my clients' needs. 
-             With a strong background in HTML, CSS, and JavaScript,
-              
+              I am a web developer who loves to create visually appealing and
+              intuitive websites that meet my clients' needs. With a strong
+              background in HTML, CSS, and JavaScript,
             </p>
             <p class="lead">
               My expertise has enabled me to successfully develop and deliver
               several projects that have contributed to the growth and success
               of various organizations.
             </p>
-            <a href="https://drive.google.com/file/d/15PrzKSdGJArkWneneM3gIQYGxC3Map9O/view" target="_blank" class="btn" download>
+            <a
+              href="https://drive.google.com/file/d/15PrzKSdGJArkWneneM3gIQYGxC3Map9O/view"
+              target="_blank"
+              class="btn"
+              download
+            >
               Download CV
               <i class="bx bxs-download"></i>
             </a>
           </div>
           <div class="col-md-6">
-            <h2>Saranya A</h2>
-            <ul>
-              <li>Bachelor's degree in Engineering with 82%</li>
-              <li>Proficient in HTML, CSS, JavaScript</li>
-              <li>Specializes in Bootstrap, React, and Node.js</li>
-              <!-- <li>Eager in delivering successful web projects</li> -->
-            </ul>
+            <h2>Certificates</h2>
+
+            <h3>
+              <a
+                href="https://drive.google.com/file/d/15gGg-A16b1jFI3SsCWISKVX2XhYl6hVh/view"
+                target="_blank"
+                >HTML5 Certificate</a
+              >
+            </h3>
+            <h3>
+              <a
+                href="https://drive.google.com/file/d/15h637MSJeFjdCaQlcwDpdBb8-_2GLS5K/view?usp=drivesdk"
+                target="_blank"
+                >CSS3 Certificate</a
+              >
+            </h3>
+
+            <h3>
+              <a
+                href="https://drive.google.com/file/d/15bQH7aWuHF6RbzMDg2RuoR0lCv9MIyra/view?usp=drivesdk"
+                target="_blank"
+                >JavaScript Certificate</a
+              >
+            </h3>
+
+            <h3>
+              <a
+                href="https://drive.google.com/file/d/15mYUHKYRUXh891bhj8B8k5GBCpRiiD6z/view?usp=drivesdk"
+                target="_blank"
+                >React Certificate</a
+              >
+            </h3>
+
+            <h3>
+              <a
+                href="https://drive.google.com/file/d/15_PhvSJouGWIaHWGdf2DnpszPbsnrwoh/view?usp=drivesdk"
+                target="_blank"
+                >NodeJS Certificate</a
+              >
+            </h3>
+
+            <h3>
+              <a
+                href="https://drive.google.com/file/d/15cCdzDW5dg012hpM6dcGZvlWbI9l-dWE/view?usp=drivesdk"
+                target="_blank"
+                >Mongodb Certificate</a
+              >
+            </h3>
+
+            <h3>
+              <a
+                href="https://drive.google.com/file/d/15aCGQo0APRcMhT1lSldtHFYcygjS-cUP/view?usp=drivesdk"
+                target="_blank"
+                >MySql Certificate</a
+              >
+            </h3>
+
+            <h3>
+              <a
+                href="https://drive.google.com/file/d/15gd9G0AUojmyzlbN8-s2by439HKqJkl4/view?usp=drivesdk"
+                target="_blank"
+                >Bootstrap Certificate</a
+              >
+            </h3>
+
+            <h3>
+              <a
+                href="https://drive.google.com/file/d/15gXn6R-pHt03TlUBDLBZUVhrmGxsxXZd/view?usp=drivesdk"
+                target="_blank"
+                >Full Stack(MERN) Certificate</a
+              >
+            </h3>
+
+            <h3>
+              <a
+                href="https://drive.google.com/file/d/15lHwj9tVGTAIgbEarmnu5Dq4uMpTugdH/view?usp=drivesdk"
+                target="_blank"
+                >AWS Certificate</a
+              >
+            </h3>
+
+            <h3>
+              <a
+                href="https://drive.google.com/file/d/15aHyJMTtk_A5-M7hn8Gshbqvyzhx2KhC/view?usp=drivesdk"
+                target="_blank"
+                >Java automation and testing Certificate</a
+              >
+            </h3>
           </div>
         </div>
       </div>
@@ -104,7 +226,7 @@
     <!-- Skills section starts here -->
 
     <div class="skills" id="skills">
-      <h1 class="heading">Skills</h1>
+      <h3 class="heading">Skills</h1>
       <div class="container1">
         <div class="row">
           <div class="col-md-12">
@@ -219,7 +341,11 @@
                 The app connects you to the talented people around the
                 world.Download it from playstore
               </p>
-              <a href="https://stately-rugelach-600890.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+              <a
+                href="https://stately-rugelach-600890.netlify.app/"
+                target="_blank"
+                ><i class="bx bx-link-external"></i
+              ></a>
             </div>
           </div>
           <div class="work">
@@ -230,7 +356,11 @@
                 The app connects you to the talented people around the
                 world.Download it from playstore
               </p>
-              <a href="https://animated-treacle-44ba01.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+              <a
+                href="https://animated-treacle-44ba01.netlify.app/"
+                target="_blank"
+                ><i class="bx bx-link-external"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -240,36 +370,54 @@
 
     <!-- Contact section starts here -->
 
-    <div id="contacts">
-      <div class="container">
-        <div class="row">
+    <div class="text-center" id="contacts">
+      <!-- <div class="container text-center"> -->
+        <div class="row text-center">
           <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <p style="margin-top: 50px;"><i class="bx bx-send"></i>saranyaayyamuthu96@gmail.com</p>
-            <p><i class="bx bxs-phone-call"></i>9600559993</p>
+            <h1 class="sub-title text-center">Contact Me</h1>
+            <p style="margin-top: 50px">
+              <i class="bx bx-send"></i>saranyaayyamuthu96@gmail.com
+            </p>
+            <p><i class="bx bxs-phone-call text-center"></i>(+91)9600559993</p>
           </div>
-          <div class="contact-right">
-            <form onSubmit="sendEmail(); reset(); return false;"> 
-              <input type="text" name="Name" placeholder="Your Name" required />
+          <div class="contact-right text-center">
+            <h1 class="text-center">Get In Touch</h1>
+            <form>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Name"
+                id="name"
+                required
+              />
               <input
                 type="email"
                 name="Email"
+                id="email"
                 placeholder="Your Email"
                 required
               />
               <textarea
                 name="Message"
+                id="message"
                 rows="3"
                 placeholder="Your Message"
               ></textarea>
-              <button type="submit" onsubmit="sendEmail()" class="btn btn2">Submit</button>
+              <button id="sendBtn" onclick="sendEmail()" class="btn btn2">
+                Send
+              </button>
             </form>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
     </div>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-    <script src="js/script.js"></script>
+    <script>
+      document
+        .getElementById("sendBtn")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          sendEmail();
+        });
+    </script>
   </body>
 </html>
